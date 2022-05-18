@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    row-gap: 24px;
+}
+.title{
+    font-size: 48px;
+    font-weight: bold;
+}
+a {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
