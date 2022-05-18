@@ -86,7 +86,7 @@ function verificationDMDP($password){
 
 ?></div>
     </div>
-    <div class="formTt">Entrez un mot de passe de 4 symboles incluant les lettres de l'alphabet en minuscule et les chiffres</div>
+    <div class="formTt infoColor">Entrez un mot de passe de 4 symboles incluant les lettres de l'alphabet en minuscule et les chiffres</div>
     <div>
         <form class="formTt" action="pass.php" method="get">
             <input type="text" name="time" placeholder="Entrez le mot de pass">
