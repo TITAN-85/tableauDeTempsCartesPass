@@ -12,29 +12,29 @@ $devine = false;
 $color = "";
 
 
-echo $_GET["time"];
-echo ("<br>");
-echo ( strtotime($client_temps));
-echo ("<br>");
-var_dump ( date("g", strtotime($client_temps)));
-echo ("<br>");
-var_dump ( date("i", strtotime($client_temps)));
-echo ("<br>");
-echo ("<br>");
-echo ("<br>");
+// echo $_GET["time"];
+// echo ("<br>");
+// echo ( strtotime($client_temps));
+// echo ("<br>");
+// var_dump ( date("g", strtotime($client_temps)));
+// echo ("<br>");
+// var_dump ( date("i", strtotime($client_temps)));
+// echo ("<br>");
+// echo ("<br>");
+// echo ("<br>");
 
-echo ($client_heures);
-echo ("<br>");
-echo ($client_minutes);
-echo ("<br>");
-echo ($client_temps);
-echo ("<br>");
-echo ($actual_temps);
-echo ("<br>");
-echo ($actual_heures);
-echo ("<br>");
-echo ($actual_minutes);
-echo ("<br>");
+// echo ($client_heures);
+// echo ("<br>");
+// echo ($client_minutes);
+// echo ("<br>");
+// echo ($client_temps);
+// echo ("<br>");
+// echo ($actual_temps);
+// echo ("<br>");
+// echo ($actual_heures);
+// echo ("<br>");
+// echo ($actual_minutes);
+// echo ("<br>");
 
 
 $timeBoard = [];

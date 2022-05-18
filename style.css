@@ -1,14 +1,44 @@
+
 body{
     display: grid;
     row-gap: 24px;
+    background-color: rgb(216, 236, 247);
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    margin: 0%;
+}
+
+h1{
+    text-transform: uppercase;
+    color: brown;
+    padding: 10px;
 }
 .title{
+    text-transform: uppercase;
     font-size: 48px;
     font-weight: bold;
+    background-color: rgb(56, 13, 13);
+    color: aliceblue;
+    padding: 20px;
+}
+nav a:hover{
+    background: #32373d;
+    color: #ffffff;
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+    border-radius: 4px;
 }
 a {
     display: flex;
     flex-flow: row wrap;
+    text-decoration: none;
+    justify-content: flex-start;
+    list-style:none;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px;
+    color: brown;
+    font-weight: bold;
 }
 
 .blue {
