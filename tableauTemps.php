@@ -21,7 +21,7 @@
         <a href="cartes.php" role="menuitem" aria-roledescription="menuitem">Paquet de cartes</a>
     </nav>
     <div>
-        <form action="tableauTemps-tablea.php" method="get">
+        <form class="formTt" action="tableauTemps-tablea.php" method="get">
             <input type="time" name="time" placeholder="Devenez l'heure">
             <input type="submit" value="Envoyez">
         </form>

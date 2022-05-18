@@ -43,7 +43,7 @@ $heuresColones = 13;
 
 for ($i = 0; $i < $minutesLigne; $i++) {
     for ($j = 0; $j < $heuresColones; $j++) {
-        $timeBoard[$i][$j] = "";
+        $timeBoard[$i][$j] = $j.":".$i;
     }
 }
 
@@ -107,10 +107,12 @@ if ($client_temps === $actual_temps) {
         }
     </style>
 </head>
-
 <body>
-    <nav>
-        <a href="Travail-Pratique-3.html"></a>
+<nav>
+        <a href="projet-final.php" role="menuitem" aria-roledescription="menuitem">Projet final</a>
+        <a href="tableauTemps.php" role="menuitem" aria-roledescription="menuitem">Tableau de Temps</a>
+        <a href="pass.php" role="menuitem" aria-roledescription="menuitem">Mot de passe</a>
+        <a href="cartes.php" role="menuitem" aria-roledescription="menuitem">Paquet de cartes</a>
     </nav>
     <main>
         <section>

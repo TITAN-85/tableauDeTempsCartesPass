@@ -67,7 +67,7 @@ $shuffle = shuffleCards($deck);
 </head>
 
 <body>
-    <div class="Shuffle">
+    <div class="Shuffle formTt">
         <?php
         for ($i = 0; $i < count($shuffle); $i++) {
             echo $shuffle[$i];
@@ -78,7 +78,6 @@ $shuffle = shuffleCards($deck);
         ?>
     </div>
     <h1>Environnement de développement web 1</h1>
-
     <nav>
         <a href="projet-final.php" role="menuitem" aria-roledescription="menuitem">Projet final</a>
         <a href="tableauTemps.php" role="menuitem" aria-roledescription="menuitem">Tableau de Temps</a>
