@@ -8,10 +8,24 @@ body{
     margin: 0%;
 }
 
+.time{
+    background-color: aliceblue;
+    color: brown;
+    padding: 30px;
+}
+
 h1{
     text-transform: uppercase;
     color: brown;
     padding: 10px;
+}
+.bigtitle{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: rgb(56, 13, 13);
+    color: aliceblue;
+    padding: 20px;
 }
 .title{
     text-transform: uppercase;

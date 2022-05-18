@@ -1,7 +1,11 @@
 <?php
-$password1 = "nb1";
-$password2 = "auto";
-$password3 = "a2c3x";
+
+
+
+$password1 = $_GET["time"];
+
+
+
 function verificationDMDP($password){
     $char = ["a","b","c","d","e","f","g","h","i","j",
     "k","l","m","n","o","p","q","r","s","t","u","v","w",
@@ -30,23 +34,23 @@ function verificationDMDP($password){
         }
     } 
 }
-$start_time = microtime(true);
-verificationDMDP($password1);
-$end_time = microtime(true);
-$execution_times = ($end_time - $start_time); 
-echo "Appel 1: ".round($execution_times, 2)."ms<br>";
+// $start_time = microtime(true);
+// verificationDMDP($password1);
+// $end_time = microtime(true);
+// $execution_times = ($end_time - $start_time); 
+// echo "Appel 1: ".round($execution_times, 2)."ms<br>";
 
-$start_time = microtime(true);
-verificationDMDP($password2);
-$end_time = microtime(true);
-$execution_times = ($end_time - $start_time); 
-echo "Appel 1: ".round($execution_times, 2)."ms<br>";
+// $start_time = microtime(true);
+// verificationDMDP($password2);
+// $end_time = microtime(true);
+// $execution_times = ($end_time - $start_time); 
+// echo "Appel 1: ".round($execution_times, 2)."ms<br>";
 
-$start_time = microtime(true);
-verificationDMDP($password3);
-$end_time = microtime(true);
-$execution_times = ($end_time - $start_time); 
-echo "Appel 1: ".round($execution_times, 2)."ms<br>";
+// $start_time = microtime(true);
+// verificationDMDP($password3);
+// $end_time = microtime(true);
+// $execution_times = ($end_time - $start_time); 
+// echo "Appel 1: ".round($execution_times, 2)."ms<br>";
 
 ?>
 
@@ -65,6 +69,27 @@ echo "Appel 1: ".round($execution_times, 2)."ms<br>";
     <title>Projet Final</title>
 </head>
 <body>
+    <h1 class="bigtitle">Projet Final</h1>
+    <div class="time">
+        <div> <?php 
+        if ($password1 === ""){
+        }else{
+
+        $start_time = microtime(true);
+verificationDMDP($password1);
+$end_time = microtime(true);
+$execution_times = ($end_time - $start_time); 
+echo "Appel 1: ".round($execution_times, 2)."ms<br>"; 
+}
+
+?></div>
+    </div>
+    <div>
+        <form action="pass.php" method="get">
+            <input type="text" name="time" placeholder="Entrez le mot de pass">
+            <input type="submit" value="Envoyez">
+        </form>
+    </div>
     <h1>Environnement de développement web 1</h1>
     <nav>
         <a href="projet-final.php" role="menuitem" aria-roledescription="menuitem">Projet final</a>
