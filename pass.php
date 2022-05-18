@@ -68,7 +68,7 @@ function verificationDMDP($password){
     <title>Projet Final</title>
 </head>
 <body>
-    <h1 class="bigtitle">Projet Final</h1>
+    <h1 class="title">Projet Final</h1>
     <div class="time">
         
         <div> <?php 

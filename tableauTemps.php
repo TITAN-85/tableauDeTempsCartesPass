@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <h1>Tableau du temps</h1>
+    <h1 class="title">Projet Finale</h1>
     <nav>
         <a href="projet-final.php" role="menuitem" aria-roledescription="menuitem">Projet final</a>
         <a href="tableauTemps.php" role="menuitem" aria-roledescription="menuitem">Tableau de Temps</a>

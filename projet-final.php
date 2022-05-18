@@ -15,8 +15,11 @@
     <nav>
         <a href="projet-final.php" role="menuitem" aria-roledescription="menuitem">Projet final</a>
         <a href="tableauTemps.php" role="menuitem" aria-roledescription="menuitem">Tableau de Temps</a>
+        <div class="formTt">Tableau de Temps pour deviner l'heure avec un bouton de soumission</div>
         <a href="pass.php" role="menuitem" aria-roledescription="menuitem">Mot de passe</a>
+        <div class="formTt">Effectuer une attaque par force brute sur le mot de passe.</div>
         <a href="cartes.php" role="menuitem" aria-roledescription="menuitem">Paquet de cartes</a>
+        <div class="formTt"> Un paquet de cartes brassé de manière aléatoire et différente à chaque rafraîchissement</div>
     </nav>
 </body>
 </html>

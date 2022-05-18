@@ -38,7 +38,6 @@ function shuffleCards($deck)
 //         echo "<br>";
 //     }
 // }
-echo "<br><br><br>";
 
 for ($i = 0; $i < count($shuffle); $i++) {
     echo $shuffle[$i];
@@ -67,6 +66,8 @@ $shuffle = shuffleCards($deck);
 </head>
 
 <body>
+<h1 class="title">Projet Final</h1>
+
     <div class="Shuffle formTt">
         <?php
         for ($i = 0; $i < count($shuffle); $i++) {
