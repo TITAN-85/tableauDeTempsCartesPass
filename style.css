@@ -54,7 +54,10 @@ a {
     color: brown;
     font-weight: bold;
 }
-
+.Shuffle{
+    display: flex;
+    margin: 0%;
+}
 .blue {
     background-color: blue;
     color: white;
