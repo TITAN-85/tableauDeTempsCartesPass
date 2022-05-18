@@ -2,8 +2,7 @@
 
 
 
-$password1 = $_GET["time"];
-
+$password1 = $_GET["time"] ?? "";
 
 
 function verificationDMDP($password){
@@ -72,16 +71,15 @@ function verificationDMDP($password){
     <h1 class="bigtitle">Projet Final</h1>
     <div class="time">
         <div> <?php 
-        if ($password1 === ""){
-        }else{
 
-        $start_time = microtime(true);
-verificationDMDP($password1);
-$end_time = microtime(true);
-$execution_times = ($end_time - $start_time); 
-echo "Appel 1: ".round($execution_times, 2)."ms<br>"; 
-}
-
+        if (!$password1 === "" ){
+            $password1 = trim($password1);
+            $start_time = microtime(true);
+            verificationDMDP($password1);
+            $end_time = microtime(true);
+            $execution_times = ($end_time - $start_time); 
+            echo "Appel 1: ".round($execution_times, 2)."ms<br>";
+        }
 ?></div>
     </div>
     <div>
