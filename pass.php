@@ -95,7 +95,7 @@ function verificationDMDP($password){
     </div>
     <h1>Environnement de développement web 1</h1>
     <nav>
-        <a href="projet-final.php" role="menuitem" aria-roledescription="menuitem">Projet final</a>
+        <a href="index.php" role="menuitem" aria-roledescription="menuitem">Accueil</a>
         <a href="tableauTemps.php" role="menuitem" aria-roledescription="menuitem">Tableau de Temps</a>
         <a href="pass.php" role="menuitem" aria-roledescription="menuitem">Mot de passe</a>
         <a href="cartes.php" role="menuitem" aria-roledescription="menuitem">Paquet de cartes</a>
